@@ -1,0 +1,364 @@
+@media (max-width: 575px) 
+{
+    h1 {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+    h2 {
+        font-size: 4.3rem;
+        line-height: 4rem;
+    }
+    h2 span {
+        font-size: 2.9rem;
+        display: block;
+    }
+    h2.green, h2.orange {
+        line-height: 2.6rem;
+        max-width: 78%;
+    }
+    
+    header .community .container{
+        flex-direction: column;
+    }
+    header .community .container .socials {
+        width: 100%;
+        flex-direction: row;
+        margin-top: 0.5rem;
+        justify-content: center;
+    }
+    header .community .container .socials span{
+        margin-right:1.5rem;
+    }
+    header #logo img {
+        width: 230px;
+        margin: -35px 0;
+        transform: translateX(-72px);
+    }
+    header nav {
+        width: 100%;
+        transform: translateX(100%);
+    }
+    header nav ul li a{
+        text-align: center;
+    }
+    section#main .container .play {
+        margin-top: 15rem;
+        margin-bottom: 0rem;
+        height: 50%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    section#main .container .play svg{
+        width: calc(100vh - 430px) !important;
+        height: 70% !important;
+        max-width: 100% !important;
+    }
+    
+    section#main .container .content h1 {
+        margin:0 auto 1.5rem auto;
+        font-size: 3rem;
+    }
+    section#main .container .content {
+        padding-top: 0rem;
+        padding-bottom: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    section#main .container .content .description {
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+        margin: 0 auto 1.5rem auto;
+        max-width:100%;
+    }
+    section#main .container .content .buttons a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    section#download-beta-game .panel{
+        padding-top:22rem;
+        text-align: center;
+    }
+    section#download-beta-game .panel img{
+        left: 50%;
+        transform: translateX(-50%);
+        top:0;
+        right:auto;
+        bottom:auto;
+    }
+    section#contract-address img.token, 
+    section#listing img.token {
+        width: 60px;
+        right: 8px;
+        top: 52px;
+    }
+    section#contract-address .address {
+        width: 100%;
+        padding: 1rem;
+        font-size: 1rem;
+    }
+    section#contract-address img.girl {
+        left: -12px;
+        width: 69px;
+        top: -5px;
+    }
+    section#highlights .panel {
+        margin: 0 0rem;
+    }
+    section#highlights .panel img {
+        width: 60%;
+    }
+    section#join-community .social-networks{
+        width:20rem;
+        margin:0 auto;
+    }
+    section#join-community img.bg {
+        width: 132px;
+        top: 63px;
+        left: -35px;
+    }
+    section#game-features h2 {
+        margin-bottom: 0rem;
+    }
+    section#game-features img.bg {
+        right: -23px;
+        top: -49px;
+        width: 70px;
+    }
+    section#collection{
+        text-align:center;
+    }
+    section#collection .row:not(.nft){
+        flex-direction: column-reverse;
+    }
+    section#collection h3{
+        margin-top:3rem;
+    }
+    section#collection div.nft {
+        margin-top: 2rem;
+    }
+    section#our-rockstars .panel,
+    section#advisors .panel{
+        text-align:center;
+    }
+    section#listing .content {
+        width: 80%;
+    }
+    section#contract-address img.token, section#listing img.token {
+        width: 60px;
+        right: -7px;
+        top: 14px;
+    }
+    section#join-community .glow {
+        left: -136px;
+        top: -134px
+    }
+    section#game-features .glow {
+        left: 16px;
+        top: -464px;
+    }
+    section#our-rockstars .glow, 
+    section#blog .glow, 
+    section#advisors .glow, 
+    section#in-the-news .glow, 
+    section#collection .glow {
+        left: 46px;
+        top: -131px;
+    }
+    section#collection .glow.yellow {
+        left: 44px;
+        top: 144px;
+    }
+    section#roadmap .glow, section#our-partnership .glow {
+        left: -95px;
+        top: -148px;
+    }
+    section#main {
+        height: 130vh;
+    }
+    section#main .welcome {
+        margin-top: -130px;
+    }
+    
+    section#main .container .play {
+        width: 180px;
+        margin-top:0;
+    }
+    section#main #video video.portrait {
+        width: calc(130vh * 16 / 9);
+        height: 130vh;
+    }
+    #partnership-request .img-panel,
+    #bug-report-form .img-panel{
+        width:0;
+        position: relative;
+        z-index: -1;
+    }
+    #partnership-request .img-panel img,
+    #bug-report-form .img-panel img{
+        opacity:0.35;
+        position: absolute;
+        right:0;
+        top:0;
+        width:100px;
+    }
+    #bug-report-form .img-panel img{
+        width:200px;
+    }
+    #bug-report-form .img-panel img.alien{
+        bottom:0;
+        margin: 0;
+        top:auto;
+        width:200px;
+    }
+    #partnership-request .progress {
+        margin: 3rem 0;
+    }
+    #partnership-request .text-content, #bug-report-form .text-content{
+        padding:0;
+    }
+    section#download a {
+        display: block;
+    }
+    section#download .first {
+        margin-bottom: 1rem;
+        margin-right: 0rem;
+    }
+    section#download .mobile h3 {
+        margin-top: 23rem;
+    }
+    section#download .glow {
+        top:-130px;
+    }
+    section#main .container .token-integration {
+        flex-direction: column;
+        font-size: 1rem;
+        padding: 1rem;
+    }
+    section#main .container .btn.btn-yellow.biggest.token-integration img {
+        margin:0;
+    }
+    section#main .container .btn.btn-yellow.biggest{
+        line-height:1.2rem;
+    }
+    .download-beta-game {
+        bottom: 40px;
+    }
+    .download-beta-game img {
+        height: 140px;
+    }
+    .container.page {
+        padding: 15rem 1.5rem 4rem 1.5rem;
+    }
+    footer #links{
+        text-align:center;
+    }
+    footer ul li a{
+        justify-content: center;
+    }
+    footer .social-networks{
+        justify-content: center;
+    }
+    footer section#links {
+        padding: 2rem 0;
+    }
+    ul.tabs li {
+        font-size: 1.4rem;
+        padding: 0.5rem 0.5rem;
+        margin-right: 1rem;
+    }
+    ul.tabs.nested li {
+        flex: 1 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .page-side-panel h4{
+        font-size: 1.8rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .page-side-panel h4 svg{
+        fill: var(--colors-green);
+        transform: rotate(90deg);
+        width: 20px !important;
+        height: 20px !important;
+        margin: 0 1rem;
+    }
+    .page-side-panel h4 svg:last-child{
+        fill:#114337;
+    }
+
+    .social-networks {
+        gap: 1rem;
+    }
+    .badge {
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+    .grid-list {
+        gap: 25px 22px;
+    }
+    .glow {
+        width: 300px;
+        height: 300px;
+        opacity:1;
+    }
+
+    .btn {
+        padding: 1rem 1.4rem;
+        font-size: 1.3rem;
+    }
+    .btn.smaller{
+        padding:0.8rem 1rem;
+        font-size:1.2rem;
+    }
+    .btn.bigger{
+        padding:1.3rem 1.6rem;
+        font-size:1.5rem;
+    }
+    .btn.biggest {
+        padding: 1.8rem 2rem;
+        font-size: 1.8rem;
+    }
+
+    .container{
+        width:100%;
+        padding: 0 1.5rem;
+    }
+
+    .col-xxs-2{
+        flex: 0 0 16.6666%;
+        max-width: 16.6666%;
+    }
+    .col-xxs-3{
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .col-xxs-4{
+        flex: 0 0 33.29%;
+        max-width: 33.29%;
+    }
+    .col-xxs-6{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .col-xxs-8{
+        flex: 0 0 66.58%;
+        max-width: 66.58%;
+    }
+    .col-xxs-9{
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+    .col-xxs-12{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}

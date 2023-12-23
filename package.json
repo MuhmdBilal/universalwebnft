@@ -1,0 +1,39 @@
+{
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p 8900",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "@tinymce/tinymce-react": "^4.2.0",
+    "apollo-datasource": "^3.3.2",
+    "apollo-server": "^3.10.2",
+    "apollo-server-micro": "^3.10.2",
+    "apollo-upload-client": "^17.0.0",
+    "express": "^4.18.1",
+    "fs": "^0.0.1-security",
+    "graphql-upload": "^13.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "lightgallery": "^2.7.0",
+    "md5": "^2.3.0",
+    "moment": "^2.29.4",
+    "next": "^12.3.1",
+    "next-with-apollo": "^5.3.0",
+    "react": "^17.0.2",
+    "react-beautiful-dnd": "^13.1.1",
+    "react-dom": "^17.0.2",
+    "react-modal": "^3.15.1",
+    "react-slick": "^0.29.0",
+    "serverless-mysql": "^1.5.4",
+    "sharp": "^0.31.2",
+    "slick-carousel": "^1.8.1",
+    "speakingurl": "^14.0.1",
+    "stream-to-array": "^2.3.0"
+  },
+  "devDependencies": {
+    "eslint": "8.56.0",
+    "eslint-config-next": "14.0.4"
+  }
+}

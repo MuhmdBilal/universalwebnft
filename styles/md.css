@@ -1,0 +1,352 @@
+@media (max-width: 1199px) 
+{
+    .container{
+        width:950px;
+        padding:0 2rem;
+    }
+    h1 {
+        font-size: 4.5rem;
+        line-height: 4.5rem;
+        margin: 0 0 2rem 0;
+    }
+    h2 {
+        font-size: 5.8rem;
+        line-height: 5rem;
+        margin: 0 0 2rem 0;
+    }
+    h2 span {
+        font-size: 4rem;
+    }
+    h2.green, h2.orange {
+        font-size: 4rem;
+    }
+    h3 {
+        margin: 0 0 2rem 0;
+        font-size: 2.7rem;
+    }
+    h2.blue, h2.yellow {
+        font-size: 4rem;
+    }
+    p {
+        margin: 2rem 0;
+    }
+    p, li, p *, li * {
+        font-size: 1.4rem;
+    }
+    input, select, textarea {
+        padding: 1.2rem;
+        font-size: 1.2rem;
+    }
+    #logo{
+        width:135px;
+    }
+    header #logo img {
+        width: 300px;
+        margin: -32px 0;
+        transform: translateX(-90px);
+    }
+    header nav ul li a {
+        padding: 0 1rem;
+    }
+    header nav ul li.market a.btn {
+        font-size: 1.6rem;
+        padding: 1.2rem 1.6rem;
+    }
+    footer section#links h3 {
+        font-size: 2.5rem;
+        line-height: 2rem;
+    }
+    footer section#links {
+        padding: 4rem 0;
+    }
+    footer img.logo {
+        width: 40%;
+    }
+    section#main .container .content .buttons {
+        margin-bottom: 2rem;
+    }
+    section#main .container .play {
+        width: 350px;
+    }
+    section#main .container .content .description {
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+        margin-bottom: 2rem;
+    }
+    section#main .container .content {
+        padding-top:6rem;
+    }
+    
+    section#contract-address h2 {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+    section#contract-address .address {
+        font-size: 1.4rem;
+    }
+    section#contract-address img.token, section#listing img.token {
+        width: 150px;
+    }
+    section#contract-address img.girl {
+        left: -32px;
+        top: -24px;
+        width: 130px;
+    }
+    section#contract-address, section#download-beta-game, section#download {
+        padding-top: 6rem;
+    }
+    ul.tabs li {
+        font-size: 1.8rem;
+    }
+    section#highlights h3, section#game-features h3 {
+        font-size: 2rem;
+        line-height: 2.3rem;
+    }
+    section#join-community {
+        min-height: 393px;
+    }
+    section#join-community img.bg {
+        width: 280px;
+        top: -10px;
+    }
+    section#game-features img.bg {
+        right: -32px;
+        top: -94px;
+        width:250px;
+    }
+    section#collection h2 {
+        margin-bottom: 3rem;
+    }
+    section#collection h3 {
+        font-size: 3.5rem;
+        line-height: 4rem;
+    }
+    section#collection {
+        padding: 4rem 0;
+    }
+    section#collection div.nft {
+        margin-top: 4rem;
+    }
+    section#roadmap h3 {
+        font-size: 4.5rem;
+        line-height: 5.5rem;
+    }
+    section#our-rockstars h2{
+        margin-bottom: 6rem;
+    }
+    section#our-rockstars, 
+    section#our-partnership {
+        padding: 2rem 0 0 0;
+    }
+    section#our-rockstars img, 
+    section#advisors img {
+        margin-top: -6rem;
+    }
+    section#our-rockstars .panel {
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+    section#our-rockstars h3 {
+        line-height: 2.8rem;
+    }
+    section#blog h3, section#in-the-news h3 {
+        font-size: 1.6rem;
+        line-height: 1.8rem;
+    }
+    section#our-partnership {
+        padding-bottom: 6rem;
+    }
+    section#download .desktop {
+        padding-right: 5rem;
+    }
+    section#download .mobile {
+        padding-left: 5rem;
+    }
+    section#download img {
+        height: 6.4rem;
+        width: 22rem;
+    }
+    section#download h2 {
+        margin: 0 auto 4rem auto;
+    }
+    section#main .container .btn.btn-yellow.biggest.token-integration img {
+        height: 35px;
+    }
+    #partnership-request .img-panel,
+    #bug-report-form .img-panel {
+        width: 200px;
+    }
+    .panel, 
+    section#highlights .panel {
+        padding: 2.5rem;
+    }
+    #bug-report-form .img-panel img.alien {
+        margin-top: 7rem;
+    }
+    #bug-report-form .panel h2 {
+        font-size: 2rem;
+        line-height: 2.2rem;
+        margin: 0 0 2rem 0;
+    }
+    section#game-features .glow {
+        left: -309px;
+        top: -378px;
+    }
+    section#collection .glow.yellow {
+        left: 167px;
+        top: 299px;
+    }
+    section#our-rockstars .glow, 
+    section#blog .glow, 
+    section#advisors .glow, 
+    section#in-the-news .glow,
+    section#collection .glow {
+        left: 389px;
+        top: -257px;
+    }
+    section#download ul.list {
+        margin-bottom: 2rem;
+    }
+    section#in-the-news {
+        padding-top: 0rem;
+    }
+    section#in-the-news h2, section#our-partnership h2 {
+        margin-bottom: 2rem;
+    }
+    section#roadmap .glow, section#our-partnership .glow {
+        left: -46px;
+        top: -250px;
+    }
+    section#join-community .glow {
+        left: -30px;
+    }
+    section#main .container .btn.btn-yellow.biggest img {
+        height: 2.5rem;
+    }
+    section#main .container .btn.btn-yellow.biggest.download {
+        padding-bottom: 3rem;
+    }
+    .download-beta-game img {
+        height: 350px;
+    }
+    .download-beta-game {
+        padding: 0 2rem;
+    }
+    .download-beta-game h2 {
+        font-size: 4rem;
+        line-height: 2rem;
+    }
+    .download-beta-game h2 span {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+    .tabs-content img.to-bottom {
+        margin-bottom: -2.45rem;
+    }
+    .page-side-panel img.bg {
+        right: -9px;
+        height: 174px
+    }
+    ul.tabs.bigger li {
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+    .form-group {
+        margin-bottom: 2rem;
+    }
+    .social-networks.big {
+        gap: 2rem;
+    }
+    .social-networks.big img {
+        width: 30px;
+    }
+    .slick-slider img {
+        width: 60%;
+    }
+    .text-biggest {
+        font-size: 2.2rem;
+        line-height: 2.8rem;
+    }
+    .text-content h1 {
+        font-size: 3.5rem;
+        line-height: 4rem;
+    }
+    .text-content h2 {
+        font-size: 2.6rem;
+        line-height: 3rem;
+        margin: 2rem 0;
+    }
+    .page-side-panel h4 {
+        font-size: 2.5rem;
+        line-height: 2.6rem;
+    }
+    
+    .text-content h3 {
+        font-size: 1.8rem;
+        line-height: 2rem;
+        margin: 2rem 0;
+    }
+    .text-content h4, .text-content h5, .text-content h6 {
+        font-size: 1.7rem;
+        margin: 2rem 0;
+    }
+    .container.page {
+        padding: 18rem 2rem 4rem 2rem;
+    }
+    .page-side-panel .social-networks.big {
+        gap: 2rem;
+        margin: 0 3rem;
+    }
+    .page-side-panel {
+        width: 280px;
+        padding:2rem;
+    }
+    .page-side-panel h4 {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    .text-content h1 {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+    .text-content h2 {
+        font-size: 2.3rem;
+        line-height: 2.5rem;
+        margin: 1.5rem 0;
+    }
+    .text-content h3 {
+        font-size: 1.6rem;
+        line-height: 2rem;
+        margin: 1.5rem 0;
+    }
+    .text-content h4, .text-content h5, .text-content h6 {
+        font-size: 1.5rem;
+        margin: 1.5rem 0;
+    }
+    .badge {
+        font-size: 1.2rem;
+        padding: 0.5rem;
+    }
+    .glow {
+        width: 550px;
+        height: 550px;
+        opacity: 0.7;
+    }
+    .glow.page {
+        left: -263px;
+        top: -59px;
+    }
+    .btn {
+        padding: 1.2rem 1.6rem;
+        font-size: 1.4rem;
+    }
+    .btn.biggest {
+        padding: 2rem 3rem;
+        font-size: 2rem;
+    }
+    .btn.smaller {
+        padding: 1rem 1.3rem;
+        font-size: 1.3rem;
+    }
+    
+}

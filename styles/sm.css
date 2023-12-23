@@ -1,0 +1,376 @@
+@media (max-width: 949px) 
+{
+    h1 {
+        font-size: 4rem;
+        margin: 0 0 1.5rem 0;
+        line-height: 4.5rem;
+    }
+    h2 {
+        font-size: 4.8rem;
+        line-height: 4rem;
+        margin: 0 0 1.5rem 0;
+    }
+    h2.green, h2.orange {
+        font-size: 3rem;
+    }
+    h2 span {
+        font-size: 3rem;
+    }
+    h2.blue, h2.yellow {
+        font-size: 3rem;
+    }
+    h3 {
+        margin: 0 0 1.5rem 0;
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    p {
+        margin: 1.5rem 0;
+    }
+    p, li, p *, li * {
+        line-height: 2rem;
+    }
+    header .community a.download {
+        font-size: 1.2rem;
+    }
+    header .community .container .socials span {
+        font-size: 1.2rem;
+        margin-right: 2rem;
+    }
+    header nav ul li.market a.btn {
+        font-size: 1.4rem;
+        padding: 1rem 1rem;
+    }
+    header nav ul li a {
+        padding: 0 0.5rem;
+    }
+    footer section.logo{
+        padding:0 !important;
+    }
+    section#main .container .content .description {
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+        margin:0 auto 2rem auto;
+        max-width:80%;
+    }
+    section#contract-address h2 {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+    }
+    section#contract-address .address {
+        width: 60%;
+    }
+    section#main {
+        height: 100vh;
+    }
+    section#main #video video.portrait {
+        width: calc(100vh * 16 / 9);
+        height: 100vh;
+    }
+    section#main .container .content .buttons {
+        margin-bottom: 1.5rem;
+        justify-content: center;
+    }
+    section#main .container .play {
+        width: 260px;
+    }
+    section#main .container,
+    section#main .welcome {
+        flex-direction: column-reverse;
+    }
+    section#main .welcome {
+        margin-top: -180px;
+    }
+    section#main .container .content {
+        padding-top: 0rem;
+        text-align: center;
+    }
+    section#main .container .content h1{
+        margin:0 auto 2rem auto;
+        max-width:70%;
+        font-size: 5rem;
+    }
+    section#main .container .play {
+        width: 260px;
+        margin-top: 0rem;
+    }
+    section#contract-address svg{
+        width:75px !important;
+        height:75px !important;
+    }
+    section#join-community svg {
+        margin: 1rem 0;
+        width:75px !important;
+        height:75px !important;
+    }
+    section#join-community {
+        min-height: 300px;
+    }
+    section#join-community img.bg {
+        width: 200px;
+        top: 4px;
+    }
+    section#contract-address img.token, 
+    section#listing img.token {
+        width: 125px;
+        right: 6px;
+    }
+    section#contract-address img.girl {
+        left: -12px;
+        width: 110px;
+    }
+    section#download ul.list {
+        margin-bottom: 1.5rem;
+    }
+    section#highlights .col-4 {
+        padding: 1rem;
+    }
+    section#game-features img.bg {
+        right: -29px;
+        top: -71px;
+        width: 225px;
+    }
+    section#collection {
+        padding: 2rem 0;
+    }
+    section#roadmap h3 {
+        font-size: 4rem;
+        line-height: 5rem;
+    }
+    section#collection h3 {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    section#roadmap .tabs-content p {
+        margin: 1.5rem 0;
+    }
+    section#advisors h2 {
+        margin-bottom: 7rem;
+    }
+    section#our-rockstars img {
+        height: 125px;
+    }
+    section#blog h3, section#in-the-news h3 {
+        font-size: 1.5rem;
+    }
+    section#blog a {
+        font-size: 1.4rem;
+    }
+    section#blog {
+        padding: 2rem 0 4rem 0;
+    }
+    section#listing img.token {
+        width: 100px;
+        right: 6px;
+        top: -19px;
+    }
+    section#listing .content {
+        width: 75%;
+    }
+    section#advisors h3 {
+        font-size: 2.2rem;
+        line-height: 2.2rem;
+        margin-bottom: 4rem;
+    }
+    section#advisors{
+        padding:0px;
+    }
+    section#advisors img {
+        width: 55%;
+    }
+    section#our-rockstars .glow, 
+    section#blog .glow, 
+    section#advisors .glow, 
+    section#in-the-news .glow, 
+    section#collection .glow {
+        left: 297px;
+        top: -198px;
+    }
+    section#collection .glow.yellow {
+        left: 112px;
+        top: 197px;
+    }
+    section#game-features .glow {
+        left: -240px;
+        top: -331px;
+    }
+    section#roadmap .glow, section#our-partnership .glow {
+        left: -74px;
+        top: -201px;
+    }
+    section#join-community .glow {
+        left: -22px;
+        top: -186px;
+        z-index: 1;
+    }
+    section#download {
+        padding: 6rem 0;
+    }
+    section#download .desktop {
+        padding-right: 3rem;
+    }
+    section#download .mobile {
+        padding-left: 3rem;
+    }
+    section#download img {
+        height: 5rem;
+        width: 17.5rem;
+    }
+    section#download .first {
+        margin-bottom: 1rem;
+    }
+    section#download h2 {
+        margin: 0 auto 2rem auto;
+    }
+    section#main .bigger-buttons{
+        justify-content: center;
+    }
+    #announcement {
+        padding: 2.5rem;
+        width: 34rem;
+    }
+    #announcement h3 {
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+    #announcement .close {
+        right: 2.5rem;
+        top: 2.5rem;
+    }
+    #partnership-request .img-panel, #bug-report-form .img-panel {
+        width: 150px;
+    }
+    #partnership-request .progress .step .title {
+        font-size: 1.4rem;
+        line-height: 1.4rem;
+    }
+    #bug-report-form .report {
+        margin-top: 6rem;
+    }
+    
+    footer section#links h3 {
+        font-size: 2rem;
+    }
+    .download-beta-game img {
+        height: 280px;
+    }
+    .download-beta-game {
+        bottom: 65px;
+    }
+    .text-content h1 {
+        font-size: 2.75rem;
+        line-height: 2.75rem;
+    }
+    .text-content h2 {
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+    .glow {
+        width: 450px;
+        height: 450px;
+        opacity:0.8;
+    }
+    .glow.page {
+        left: -197px;
+        top: -4px;
+    }
+    .social-networks.big img {
+        width: 25px;
+    }
+    .social-networks.big {
+        gap: 1rem 2rem;
+    }
+    
+    .form-group {
+        margin-bottom: 1.5rem;
+    }
+    .grid-list img {
+        width: 60%;
+    }
+    .grid-list {
+        gap: 25px 65px;
+    }
+    table * {
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+    }
+    table td, table th {
+        padding: 1rem 1.5rem;
+    }
+    ul.tabs {
+        margin: 0 0 2rem 0 !important;
+    }
+    .tabs-content img.to-bottom {
+        margin-bottom: -2rem;
+    }
+    .text-biggest {
+        font-size: 1.8rem;
+        line-height: 2.3rem;
+    }
+    .text-bigger {
+        font-size: 1.5rem;
+        line-height: 2.2rem;
+    }
+    .text-smaller {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+    .panel, section#highlights .panel {
+        padding: 2rem;
+    }
+    .page-side-panel ul li a{
+        font-size:1.2rem;
+    }
+    .page-side-panel img.bg {
+        right: -13px;
+        height: 129px;
+    }
+    .page-side-panel {
+        width: 225px;
+        padding: 1.5rem;
+    }
+    .page-side-panel svg {
+        width:75px !important;
+        height:75px !important;
+    }
+    .page-side-panel .social-networks.big {
+        gap: 2rem;
+        margin: 0px 0rem;
+    }
+
+    .col-sm-2{
+        flex: 0 0 16.6666%;
+        max-width: 16.6666%;
+    }
+    .col-sm-3{
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .col-sm-4{
+        flex: 0 0 33.29%;
+        max-width: 33.29%;
+    }
+    .col-sm-6{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .col-sm-8{
+        flex: 0 0 66.58%;
+        max-width: 66.58%;
+    }
+    .col-sm-9{
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+    .col-sm-12{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .container{
+        width:767px;
+    }
+    .social-networks {
+        gap: 1.5rem;
+    }
+}

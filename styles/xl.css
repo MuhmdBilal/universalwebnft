@@ -1,0 +1,23 @@
+@media (max-width: 1920px) 
+{
+    section#main .welcome {
+        margin-top: -180px;
+    }
+
+    .download-beta-game {
+        bottom: 10px;
+    }
+    .download-beta-game h2{
+        font-size: 7rem;
+        line-height: 5rem;
+    }
+
+    .download-beta-game h2 span {
+        font-size: 4.7rem;
+        line-height: 4.7rem;
+    }
+    .download-beta-game img {
+        bottom: -46px;
+    }
+
+}

@@ -1,0 +1,351 @@
+@media (max-width: 766px) 
+{
+
+    h2 {
+        font-size: 3.8rem;
+        line-height: 3rem;
+    }
+    h2 span {
+        font-size: 2.5rem;
+    }
+    h2.green, h2.orange {
+        font-size: 2.5rem;
+    }
+    h3 {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+    section#roadmap h3 {
+        font-size: 3.5rem;
+        line-height: 4rem;
+    }
+    section#main .container .content h1 {
+        max-width: 100%;
+        font-size: 4rem;
+    }
+
+    .download-beta-game h2 {
+        font-size: 3rem;
+        line-height: 2rem;
+    }
+    .download-beta-game h2 span {
+        font-size: 2rem;
+        line-height: 4rem;
+    }
+    .download-beta-game img {
+        bottom: -11px;
+    }
+
+    header .mobile-menu-button{
+        display:flex;
+        align-items: center;
+        margin-left:auto;
+    }
+    header .mobile-menu-button img{
+        height:35px;
+        margin-right:2rem;
+    }
+    header .community {
+        padding: 1rem 0;
+    }
+    header .community .container .socials{
+        width:40%;
+        flex-direction: column;
+    }
+    header .community .container .socials span {
+        margin: 0 0 0.5rem 0;
+    }
+    
+    header nav{
+        position:fixed;
+        top:56px;
+        right:0;
+        width:300px;
+        bottom:0;
+        z-index:100;
+        background-color: #000;
+        opacity: 0.85;
+        transform: translateX(300px);
+        transition: all 0.5s;
+    }
+    header .mobile-menu-ovelay.open{
+        opacity: 0.5;
+        transform: translateX(0);
+    }
+    header nav.open{
+        transform: translateX(0px);
+    }
+    header nav ul{
+        display:block;
+    }
+    header .mobile-close{
+        display:block;
+        padding:2rem;
+        text-align: right;
+    }
+    header .mobile-close img{
+        width:35px;
+    }
+    header nav ul li{
+        border-bottom:1px solid var(--colors-darkblue);
+        margin:0;
+    }
+    header nav ul li a{
+        padding:2rem 2rem;
+        display:block;
+    }
+    header nav ul li.market{
+        display:none;
+    }
+    header .mobile-menu-ovelay{
+        position: fixed;
+        top:56px;
+        left:0;
+        right:0;
+        bottom:0;
+        background-color:#000;
+        opacity:0.5;
+    }
+    section#contract-address h2 {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+    section#contract-address .address {
+        width: 80%;
+    }
+    section#contract-address img.token, 
+    section#listing img.token {
+        width: 100px;
+        right: 28px;
+        top: -9px;
+    }
+    section#contract-address img.girl {
+        left: -12px;
+        width: 93px;
+        top: -6px;
+    }
+    section#download-beta-game{
+        padding-top: 4rem;
+    }
+    section#contract-address, section#download {
+        padding-top: 2rem;
+    }
+    section#collection h3 {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    .download-beta-game img {
+        height: 226px;
+    }
+    .tabs-content img.to-bottom {
+        margin-bottom: 1rem;
+    }
+    section#download ul.list li{
+        justify-content: center;
+    }
+    section#download .col-xs-12{
+        text-align: center;
+    }
+    section#highlights .panel {
+        margin:0 10rem;
+    }
+    section#join-community {
+        min-height: 260px;
+    }
+    section#join-community img.bg {
+        width: 150px;
+        top: 30px;
+        left:-20px;
+    }
+    section#game-features img.bg {
+        right: -38px;
+        top: -20px;
+        width: 200px;
+    }
+    section#collection img {
+        width: 100%;
+    }
+    section#roadmap h2 {
+        margin-bottom: 2rem;
+    }
+    section#listing img.token {
+        right: -16px;
+    }
+    section#listing .form-group.d-flex{
+        flex-direction: column;
+    }
+    section#listing input{
+        width:100%;
+    }
+    section#listing input:first-child{
+        margin-bottom:1.5rem;
+    }
+    section#our-rockstars .glow, 
+    section#blog .glow, 
+    section#advisors .glow, 
+    section#in-the-news .glow, 
+    section#collection .glow {
+        left: 170px;
+        top: -198px;
+    }
+    section#collection .glow.yellow {
+        left: 58px;
+        top: 144px;
+    }
+    section#join-community .glow {
+        left: -55px;
+    }
+    section#join-community img.bg {
+        width: 150px;
+        top: 29px;
+        left: -8px;
+    }
+    section#links .col-xs-12{
+        margin-top:1.5rem;
+    }
+    section#download {
+        padding: 4rem 0;
+    }
+    section#download .desktop {
+        padding-right: 0rem;
+    }
+    section#download .mobile {
+        padding-left: 0rem;
+    }
+    section#download a {
+        display: inline-block;
+    }
+    section#download .first {
+        margin-bottom: 0rem;
+        margin-right:1rem;
+    }
+    section#download .mobile h3 {
+        margin-top:30rem;
+    }
+    section#download .glow {
+        top: -187px;
+    }
+    #partnership-request .progress .step .title {
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+    }
+    #partnership-request .text-content, 
+    #bug-report-form .text-content {
+        padding-right: 1rem;
+    }
+    #partnership-request .img-panel{
+        width: 100px;
+    }
+    #bug-report-form .img-panel {
+        width: 160px;
+    }
+    #bug-report-form .img-panel img.alien {
+        margin-top: 13rem;
+        margin-left:0;
+    }
+    #bug-report-form h2.green {
+        font-size:2rem;
+        margin: 0 0 1.5rem 0;
+    }
+    #bug-report-form .report {
+        margin-top: 4rem;
+    }
+    #bug-report-form .col-xs-12{
+        margin:1rem 0;
+    }
+    ul.tabs.bigger li {
+        font-size: 2rem;
+        line-height: 2rem;
+        margin-right:1rem;
+    }
+    ul.tabs li {
+        font-size: 1.6rem;
+        padding: 1rem 1rem;
+    }
+    .text-content h1 {
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+    .container.page .with-side-panel{
+        flex-direction: column-reverse;
+    }
+    .page-side-panel{
+        width: 100%;
+        position:relative;
+        margin-bottom: 2rem;
+    }
+    .page-side-panel ul{
+        position:absolute;
+        top:3.5rem;
+        left:0;
+        width:100%;
+        background-color: #000;
+        padding:1rem 1rem 1rem 3rem;
+        border-radius: 2rem;
+        display:none;
+    }
+    .page-side-panel {
+        width: 100%;
+        padding: 1.5rem;
+    }
+    .page-side-panel.fixed{
+        left: 10px;
+        right: 10px;
+        width: auto;
+        background: #000;
+        z-index: 1000;
+    }
+    .page-side-panel ul.open{
+        display:block;
+    }
+    .glow {
+        width: 400px;
+        height: 400px;
+    }
+    .slick-slider img {
+        width: 50%;
+    }
+    .tabs-content img {
+        width: 50%;
+    }
+    .text-bigger {
+        line-height: 1.8rem;
+    }
+    .text-biggest {
+        font-size: 1.7rem;
+        line-height: 2.2rem;
+    }
+
+    .col-xs-2{
+        flex: 0 0 16.6666%;
+        max-width: 16.6666%;
+    }
+    .col-xs-3{
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .col-xs-4{
+        flex: 0 0 33.29%;
+        max-width: 33.29%;
+    }
+    .col-xs-6{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .col-xs-8{
+        flex: 0 0 66.58%;
+        max-width: 66.58%;
+    }
+    .col-xs-9{
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+    .col-xs-12{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .container{
+        width:576px;
+    }
+}
